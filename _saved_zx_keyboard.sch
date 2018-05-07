@@ -1,0 +1,1013 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:zx_keyboard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4066 U1
+U 1 1 5AEA0FD9
+P 2800 7000
+F 0 "U1" H 3000 6851 50  0000 C CNN
+F 1 "4066" H 3000 7150 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-428" H 2800 7000 60  0001 C CNN
+F 3 "" H 2800 7000 60  0000 C CNN
+	1    2800 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4066 U1
+U 2 1 5AEA10DF
+P 2500 6100
+F 0 "U1" H 2700 5951 50  0000 C CNN
+F 1 "4066" H 2700 6250 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-428" H 2500 6100 60  0001 C CNN
+F 3 "" H 2500 6100 60  0000 C CNN
+	2    2500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4066 U1
+U 3 1 5AEA1178
+P 1600 6150
+F 0 "U1" H 1800 6001 50  0000 C CNN
+F 1 "4066" H 1800 6300 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-428" H 1600 6150 60  0001 C CNN
+F 3 "" H 1600 6150 60  0000 C CNN
+	3    1600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4066 U1
+U 4 1 5AEA120D
+P 1900 7000
+F 0 "U1" H 2100 6851 50  0000 C CNN
+F 1 "4066" H 2100 7150 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-428" H 1900 7000 60  0001 C CNN
+F 3 "" H 1900 7000 60  0000 C CNN
+	4    1900 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 5AEA16F2
+P 1400 900
+F 0 "SW1" H 1550 1010 50  0000 C CNN
+F 1 "SW_PUSH" H 1400 820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1400 900 50  0001 C CNN
+F 3 "" H 1400 900 50  0000 C CNN
+	1    1400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 5AECBBCB
+P 1400 1400
+F 0 "SW2" H 1550 1510 50  0000 C CNN
+F 1 "SW_PUSH" H 1400 1320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1400 1400 50  0001 C CNN
+F 3 "" H 1400 1400 50  0000 C CNN
+	1    1400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR1
+U 1 1 5AECC43A
+P 9200 3750
+F 0 "#PWR1" H 9200 3600 50  0001 C CNN
+F 1 "+3.3V" H 9200 3890 50  0000 C CNN
+F 2 "" H 9200 3750 50  0000 C CNN
+F 3 "" H 9200 3750 50  0000 C CNN
+	1    9200 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF04B4C
+P 1400 1900
+F 0 "SW?" H 1550 2010 50  0000 C CNN
+F 1 "SW_PUSH" H 1400 1820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1400 1900 50  0001 C CNN
+F 3 "" H 1400 1900 50  0000 C CNN
+	1    1400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF04B93
+P 1400 2400
+F 0 "SW?" H 1550 2510 50  0000 C CNN
+F 1 "SW_PUSH" H 1400 2320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 1400 2400 50  0001 C CNN
+F 3 "" H 1400 2400 50  0000 C CNN
+	1    1400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF04DB5
+P 2200 900
+F 0 "SW?" H 2350 1010 50  0000 C CNN
+F 1 "SW_PUSH" H 2200 820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2200 900 50  0001 C CNN
+F 3 "" H 2200 900 50  0000 C CNN
+	1    2200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF04DFE
+P 2200 1400
+F 0 "SW?" H 2350 1510 50  0000 C CNN
+F 1 "SW_PUSH" H 2200 1320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2200 1400 50  0001 C CNN
+F 3 "" H 2200 1400 50  0000 C CNN
+	1    2200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF04E46
+P 2200 1900
+F 0 "SW?" H 2350 2010 50  0000 C CNN
+F 1 "SW_PUSH" H 2200 1820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2200 1900 50  0001 C CNN
+F 3 "" H 2200 1900 50  0000 C CNN
+	1    2200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF04E8B
+P 2200 2400
+F 0 "SW?" H 2350 2510 50  0000 C CNN
+F 1 "SW_PUSH" H 2200 2320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 2200 2400 50  0001 C CNN
+F 3 "" H 2200 2400 50  0000 C CNN
+	1    2200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5AF05567
+P 1100 4650
+F 0 "#PWR?" H 1100 4400 50  0001 C CNN
+F 1 "GND" H 1100 4500 50  0000 C CNN
+F 2 "" H 1100 4650 50  0000 C CNN
+F 3 "" H 1100 4650 50  0000 C CNN
+	1    1100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF0739A
+P 3000 1400
+F 0 "SW?" H 3150 1510 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 1320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3000 1400 50  0001 C CNN
+F 3 "" H 3000 1400 50  0000 C CNN
+	1    3000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF073E4
+P 3000 1900
+F 0 "SW?" H 3150 2010 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 1820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3000 1900 50  0001 C CNN
+F 3 "" H 3000 1900 50  0000 C CNN
+	1    3000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF07433
+P 3000 2400
+F 0 "SW?" H 3150 2510 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 2320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3000 2400 50  0001 C CNN
+F 3 "" H 3000 2400 50  0000 C CNN
+	1    3000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF074E0
+P 3800 900
+F 0 "SW?" H 3950 1010 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3800 900 50  0001 C CNN
+F 3 "" H 3800 900 50  0000 C CNN
+	1    3800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF07548
+P 3800 1400
+F 0 "SW?" H 3950 1510 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 1320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3800 1400 50  0001 C CNN
+F 3 "" H 3800 1400 50  0000 C CNN
+	1    3800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF075A5
+P 3800 1900
+F 0 "SW?" H 3950 2010 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 1820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3800 1900 50  0001 C CNN
+F 3 "" H 3800 1900 50  0000 C CNN
+	1    3800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF07605
+P 3800 2400
+F 0 "SW?" H 3950 2510 50  0000 C CNN
+F 1 "SW_PUSH" H 3800 2320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3800 2400 50  0001 C CNN
+F 3 "" H 3800 2400 50  0000 C CNN
+	1    3800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08515
+P 4600 900
+F 0 "SW?" H 4750 1010 50  0000 C CNN
+F 1 "SW_PUSH" H 4600 820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4600 900 50  0001 C CNN
+F 3 "" H 4600 900 50  0000 C CNN
+	1    4600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF0851B
+P 4600 1400
+F 0 "SW?" H 4750 1510 50  0000 C CNN
+F 1 "SW_PUSH" H 4600 1320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4600 1400 50  0001 C CNN
+F 3 "" H 4600 1400 50  0000 C CNN
+	1    4600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08521
+P 4600 1900
+F 0 "SW?" H 4750 2010 50  0000 C CNN
+F 1 "SW_PUSH" H 4600 1820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4600 1900 50  0001 C CNN
+F 3 "" H 4600 1900 50  0000 C CNN
+	1    4600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08527
+P 4600 2400
+F 0 "SW?" H 4750 2510 50  0000 C CNN
+F 1 "SW_PUSH" H 4600 2320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 4600 2400 50  0001 C CNN
+F 3 "" H 4600 2400 50  0000 C CNN
+	1    4600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF0852D
+P 5500 900
+F 0 "SW?" H 5650 1010 50  0000 C CNN
+F 1 "SW_PUSH" H 5500 820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5500 900 50  0001 C CNN
+F 3 "" H 5500 900 50  0000 C CNN
+	1    5500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08533
+P 5500 1400
+F 0 "SW?" H 5650 1510 50  0000 C CNN
+F 1 "SW_PUSH" H 5500 1320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5500 1400 50  0001 C CNN
+F 3 "" H 5500 1400 50  0000 C CNN
+	1    5500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08539
+P 5500 1900
+F 0 "SW?" H 5650 2010 50  0000 C CNN
+F 1 "SW_PUSH" H 5500 1820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5500 1900 50  0001 C CNN
+F 3 "" H 5500 1900 50  0000 C CNN
+	1    5500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF0853F
+P 5500 2400
+F 0 "SW?" H 5650 2510 50  0000 C CNN
+F 1 "SW_PUSH" H 5500 2320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 5500 2400 50  0001 C CNN
+F 3 "" H 5500 2400 50  0000 C CNN
+	1    5500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF0854B
+P 6300 1400
+F 0 "SW?" H 6450 1510 50  0000 C CNN
+F 1 "SW_PUSH" H 6300 1320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6300 1400 50  0001 C CNN
+F 3 "" H 6300 1400 50  0000 C CNN
+	1    6300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08551
+P 6300 1900
+F 0 "SW?" H 6450 2010 50  0000 C CNN
+F 1 "SW_PUSH" H 6300 1820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6300 1900 50  0001 C CNN
+F 3 "" H 6300 1900 50  0000 C CNN
+	1    6300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08557
+P 6300 2400
+F 0 "SW?" H 6450 2510 50  0000 C CNN
+F 1 "SW_PUSH" H 6300 2320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6300 2400 50  0001 C CNN
+F 3 "" H 6300 2400 50  0000 C CNN
+	1    6300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08563
+P 7100 900
+F 0 "SW?" H 7250 1010 50  0000 C CNN
+F 1 "SW_PUSH" H 7100 820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7100 900 50  0001 C CNN
+F 3 "" H 7100 900 50  0000 C CNN
+	1    7100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08569
+P 7100 1400
+F 0 "SW?" H 7250 1510 50  0000 C CNN
+F 1 "SW_PUSH" H 7100 1320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7100 1400 50  0001 C CNN
+F 3 "" H 7100 1400 50  0000 C CNN
+	1    7100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF0856F
+P 7100 1900
+F 0 "SW?" H 7250 2010 50  0000 C CNN
+F 1 "SW_PUSH" H 7100 1820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7100 1900 50  0001 C CNN
+F 3 "" H 7100 1900 50  0000 C CNN
+	1    7100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08575
+P 7100 2400
+F 0 "SW?" H 7250 2510 50  0000 C CNN
+F 1 "SW_PUSH" H 7100 2320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7100 2400 50  0001 C CNN
+F 3 "" H 7100 2400 50  0000 C CNN
+	1    7100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF0895B
+P 7900 1400
+F 0 "SW?" H 8050 1510 50  0000 C CNN
+F 1 "SW_PUSH" H 7900 1320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7900 1400 50  0001 C CNN
+F 3 "" H 7900 1400 50  0000 C CNN
+	1    7900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08961
+P 7900 1900
+F 0 "SW?" H 8050 2010 50  0000 C CNN
+F 1 "SW_PUSH" H 7900 1820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7900 1900 50  0001 C CNN
+F 3 "" H 7900 1900 50  0000 C CNN
+	1    7900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08967
+P 7900 2400
+F 0 "SW?" H 8050 2510 50  0000 C CNN
+F 1 "SW_PUSH" H 7900 2320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7900 2400 50  0001 C CNN
+F 3 "" H 7900 2400 50  0000 C CNN
+	1    7900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08973
+P 8700 900
+F 0 "SW?" H 8850 1010 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8700 900 50  0001 C CNN
+F 3 "" H 8700 900 50  0000 C CNN
+	1    8700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08979
+P 8700 1400
+F 0 "SW?" H 8850 1510 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 1320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8700 1400 50  0001 C CNN
+F 3 "" H 8700 1400 50  0000 C CNN
+	1    8700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF0897F
+P 8700 1900
+F 0 "SW?" H 8850 2010 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 1820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8700 1900 50  0001 C CNN
+F 3 "" H 8700 1900 50  0000 C CNN
+	1    8700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF08985
+P 8700 2400
+F 0 "SW?" H 8850 2510 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 2320 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 8700 2400 50  0001 C CNN
+F 3 "" H 8700 2400 50  0000 C CNN
+	1    8700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF093CC
+P 3000 900
+F 0 "SW?" H 3150 1010 50  0000 C CNN
+F 1 "SW_PUSH" H 3000 820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 3000 900 50  0001 C CNN
+F 3 "" H 3000 900 50  0000 C CNN
+	1    3000 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF0946A
+P 6300 900
+F 0 "SW?" H 6450 1010 50  0000 C CNN
+F 1 "SW_PUSH" H 6300 820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 6300 900 50  0001 C CNN
+F 3 "" H 6300 900 50  0000 C CNN
+	1    6300 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 5AF0953A
+P 7900 900
+F 0 "SW?" H 8050 1010 50  0000 C CNN
+F 1 "SW_PUSH" H 7900 820 50  0000 C CNN
+F 2 "Buttons_Switches_Keyboard:SW_Cherry_MX1A_1.00u_PCB" H 7900 900 50  0001 C CNN
+F 3 "" H 7900 900 50  0000 C CNN
+	1    7900 900 
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	1700 2800 1800 2900
+Entry Wire Line
+	2500 2800 2600 2900
+Entry Wire Line
+	3300 2800 3400 2900
+Entry Wire Line
+	4100 2800 4200 2900
+Entry Wire Line
+	4900 2800 5000 2900
+Entry Wire Line
+	5800 2800 5900 2900
+Entry Wire Line
+	6600 2800 6700 2900
+Entry Wire Line
+	7400 2800 7500 2900
+Entry Wire Line
+	8200 2800 8300 2900
+Entry Wire Line
+	9000 2800 9100 2900
+Text Label 1800 2800 0    60   ~ 0
+KD0
+Text Label 2600 2800 0    60   ~ 0
+KD1
+Text Label 3400 2800 0    60   ~ 0
+KD2
+Text Label 4200 2800 0    60   ~ 0
+KD3
+Text Label 5000 2800 0    60   ~ 0
+KD4
+Text Label 5900 2800 0    60   ~ 0
+KD4
+Text Label 6800 2800 0    60   ~ 0
+KD3
+Text Label 7500 2800 0    60   ~ 0
+KD2
+Text Label 8300 2800 0    60   ~ 0
+KD1
+Text Label 9100 2800 0    60   ~ 0
+KD0
+Entry Wire Line
+	8300 2900 8400 3000
+Entry Wire Line
+	9100 2900 9200 3000
+Entry Wire Line
+	7400 2900 7500 3000
+Entry Wire Line
+	6700 2900 6800 3000
+Entry Wire Line
+	5900 2900 6000 3000
+$Comp
+L R R5
+U 1 1 5AF1411B
+P 6000 3300
+F 0 "R5" V 6080 3300 50  0000 C CNN
+F 1 "10K" V 6000 3300 50  0000 C CNN
+F 2 "" V 5930 3300 50  0000 C CNN
+F 3 "" H 6000 3300 50  0000 C CNN
+	1    6000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5AF1429F
+P 6800 3300
+F 0 "R4" V 6880 3300 50  0000 C CNN
+F 1 "10K" V 6800 3300 50  0000 C CNN
+F 2 "" V 6730 3300 50  0000 C CNN
+F 3 "" H 6800 3300 50  0000 C CNN
+	1    6800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5AF1435D
+P 7500 3300
+F 0 "R3" V 7580 3300 50  0000 C CNN
+F 1 "10K" V 7500 3300 50  0000 C CNN
+F 2 "" V 7430 3300 50  0000 C CNN
+F 3 "" H 7500 3300 50  0000 C CNN
+	1    7500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5AF14412
+P 8400 3300
+F 0 "R2" V 8480 3300 50  0000 C CNN
+F 1 "10K" V 8400 3300 50  0000 C CNN
+F 2 "" V 8330 3300 50  0000 C CNN
+F 3 "" H 8400 3300 50  0000 C CNN
+	1    8400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5AF144CE
+P 9200 3300
+F 0 "R1" V 9280 3300 50  0000 C CNN
+F 1 "10K" V 9200 3300 50  0000 C CNN
+F 2 "" V 9130 3300 50  0000 C CNN
+F 3 "" H 9200 3300 50  0000 C CNN
+	1    9200 3300
+	1    0    0    -1  
+$EndComp
+Text Label 6850 3050 0    60   ~ 0
+KD3
+Text Label 7550 3050 0    60   ~ 0
+KD2
+Text Label 8450 3050 0    60   ~ 0
+KD1
+Text Label 9200 3050 0    60   ~ 0
+KD0
+Text Label 6150 3050 0    60   ~ 0
+KD4
+Text Label 4050 3050 0    60   ~ 0
+[KA8..KA15],[KD0..KD4]
+$Comp
+L D D?
+U 1 1 5AF19EF5
+P 850 1150
+F 0 "D?" H 850 1250 50  0000 C CNN
+F 1 "D" H 850 1050 50  0000 C CNN
+F 2 "" H 850 1150 50  0000 C CNN
+F 3 "" H 850 1150 50  0000 C CNN
+	1    850  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 5AF1AD27
+P 850 1650
+F 0 "D?" H 850 1750 50  0000 C CNN
+F 1 "D" H 850 1550 50  0000 C CNN
+F 2 "" H 850 1650 50  0000 C CNN
+F 3 "" H 850 1650 50  0000 C CNN
+	1    850  1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 5AF1ADE4
+P 850 2150
+F 0 "D?" H 850 2250 50  0000 C CNN
+F 1 "D" H 850 2050 50  0000 C CNN
+F 2 "" H 850 2150 50  0000 C CNN
+F 3 "" H 850 2150 50  0000 C CNN
+	1    850  2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 5AF1AEDC
+P 850 2650
+F 0 "D?" H 850 2750 50  0000 C CNN
+F 1 "D" H 850 2550 50  0000 C CNN
+F 2 "" H 850 2650 50  0000 C CNN
+F 3 "" H 850 2650 50  0000 C CNN
+	1    850  2650
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	550  2900 1800 2900
+Wire Bus Line
+	1800 2900 2600 2900
+Wire Bus Line
+	2600 2900 3400 2900
+Wire Bus Line
+	3400 2900 4200 2900
+Wire Bus Line
+	4200 2900 5000 2900
+Wire Bus Line
+	5000 2900 5900 2900
+Wire Bus Line
+	5900 2900 6150 2900
+Wire Bus Line
+	6000 2900 6700 2900
+Wire Bus Line
+	6700 2900 7400 2900
+Wire Bus Line
+	7400 2900 7500 2900
+Wire Bus Line
+	7500 2900 8300 2900
+Wire Bus Line
+	8300 2900 9100 2900
+Wire Bus Line
+	9100 2900 10200 2900
+Wire Wire Line
+	1700 900  1700 1400
+Wire Wire Line
+	1700 1400 1700 1900
+Wire Wire Line
+	1700 1900 1700 2400
+Wire Wire Line
+	1700 2400 1700 2800
+Connection ~ 1700 1400
+Connection ~ 1700 1900
+Connection ~ 1700 2400
+Wire Wire Line
+	2500 900  2500 1400
+Wire Wire Line
+	2500 1400 2500 1900
+Wire Wire Line
+	2500 1900 2500 2400
+Wire Wire Line
+	2500 2400 2500 2800
+Connection ~ 2500 1400
+Connection ~ 2500 1900
+Connection ~ 2500 2400
+Wire Wire Line
+	3300 900  3300 1400
+Wire Wire Line
+	3300 1400 3300 1900
+Wire Wire Line
+	3300 1900 3300 2400
+Wire Wire Line
+	3300 2400 3300 2800
+Connection ~ 3300 1400
+Connection ~ 3300 1900
+Connection ~ 3300 2400
+Wire Wire Line
+	4100 900  4100 1400
+Wire Wire Line
+	4100 1400 4100 1900
+Wire Wire Line
+	4100 1900 4100 2400
+Wire Wire Line
+	4100 2400 4100 2800
+Connection ~ 4100 1400
+Connection ~ 4100 1900
+Connection ~ 4100 2400
+Wire Wire Line
+	4900 900  4900 1400
+Wire Wire Line
+	4900 1400 4900 1900
+Wire Wire Line
+	4900 1900 4900 2400
+Wire Wire Line
+	4900 2400 4900 2800
+Connection ~ 4900 1400
+Connection ~ 4900 1900
+Connection ~ 4900 2400
+Wire Wire Line
+	5800 900  5800 1400
+Wire Wire Line
+	5800 1400 5800 1900
+Wire Wire Line
+	5800 1900 5800 2400
+Wire Wire Line
+	5800 2400 5800 2800
+Connection ~ 5800 1400
+Connection ~ 5800 1900
+Connection ~ 5800 2400
+Wire Wire Line
+	6600 900  6600 1400
+Wire Wire Line
+	6600 1400 6600 1900
+Wire Wire Line
+	6600 1900 6600 2400
+Wire Wire Line
+	6600 2400 6600 2800
+Connection ~ 6600 1400
+Connection ~ 6600 1900
+Connection ~ 6600 2400
+Wire Wire Line
+	7400 900  7400 1400
+Wire Wire Line
+	7400 1400 7400 1900
+Wire Wire Line
+	7400 1900 7400 2400
+Wire Wire Line
+	7400 2400 7400 2800
+Connection ~ 7400 1400
+Connection ~ 7400 1900
+Connection ~ 7400 2400
+Wire Wire Line
+	8200 900  8200 1400
+Wire Wire Line
+	8200 1400 8200 1900
+Wire Wire Line
+	8200 1900 8200 2400
+Wire Wire Line
+	8200 2400 8200 2800
+Connection ~ 8200 1400
+Connection ~ 8200 1900
+Connection ~ 8200 2400
+Wire Wire Line
+	9000 900  9000 1400
+Wire Wire Line
+	9000 1400 9000 1900
+Wire Wire Line
+	9000 1900 9000 2400
+Wire Wire Line
+	9000 2400 9000 2800
+Connection ~ 9000 1400
+Connection ~ 9000 1900
+Connection ~ 9000 2400
+Wire Wire Line
+	9200 3000 9200 3150
+Wire Wire Line
+	9200 3450 9200 3600
+Wire Wire Line
+	9200 3600 9200 3750
+Wire Wire Line
+	8400 3600 8400 3450
+Wire Wire Line
+	6000 3600 6800 3600
+Wire Wire Line
+	6800 3600 7500 3600
+Wire Wire Line
+	7500 3600 8400 3600
+Wire Wire Line
+	8400 3600 9200 3600
+Connection ~ 9200 3600
+Wire Wire Line
+	7500 3600 7500 3450
+Connection ~ 8400 3600
+Wire Wire Line
+	7500 3000 7500 3150
+Wire Wire Line
+	8400 3000 8400 3150
+Wire Wire Line
+	6000 3000 6000 3150
+Wire Wire Line
+	6800 3000 6800 3150
+Wire Wire Line
+	6000 3450 6000 3600
+Connection ~ 7500 3600
+Wire Wire Line
+	6800 3450 6800 3600
+Connection ~ 6800 3600
+Wire Wire Line
+	1100 900  1100 1150
+Wire Wire Line
+	1000 1150 1100 1150
+Wire Wire Line
+	1100 1150 1900 1150
+Wire Wire Line
+	1900 1150 2700 1150
+Wire Wire Line
+	2700 1150 3500 1150
+Wire Wire Line
+	3500 1150 4300 1150
+Wire Wire Line
+	1900 1150 1900 900 
+Connection ~ 1100 1150
+Wire Wire Line
+	2700 1150 2700 900 
+Connection ~ 1900 1150
+Wire Wire Line
+	3500 1150 3500 900 
+Connection ~ 2700 1150
+Wire Wire Line
+	4300 1150 4300 900 
+Connection ~ 3500 1150
+Wire Wire Line
+	1000 1650 1100 1650
+Wire Wire Line
+	1100 1650 1900 1650
+Wire Wire Line
+	1900 1650 2700 1650
+Wire Wire Line
+	2700 1650 3500 1650
+Wire Wire Line
+	3500 1650 4300 1650
+Wire Wire Line
+	1900 1650 1900 1400
+Wire Wire Line
+	2700 1650 2700 1400
+Connection ~ 1900 1650
+Wire Wire Line
+	3500 1650 3500 1400
+Connection ~ 2700 1650
+Wire Wire Line
+	4300 1650 4300 1400
+Connection ~ 3500 1650
+Wire Wire Line
+	1100 1400 1100 1650
+Connection ~ 1100 1650
+Wire Wire Line
+	1100 2150 1100 1900
+Wire Wire Line
+	1000 2150 1100 2150
+Wire Wire Line
+	1100 2150 1900 2150
+Wire Wire Line
+	1900 2150 2700 2150
+Wire Wire Line
+	2700 2150 3500 2150
+Wire Wire Line
+	3500 2150 4300 2150
+Wire Wire Line
+	1900 2150 1900 1900
+Wire Wire Line
+	2700 2150 2700 1900
+Connection ~ 1900 2150
+Wire Wire Line
+	3500 2150 3500 1900
+Connection ~ 2700 2150
+Wire Wire Line
+	4300 2150 4300 1900
+Connection ~ 3500 2150
+Wire Wire Line
+	1100 2650 1100 2400
+Wire Wire Line
+	1000 2650 1100 2650
+Wire Wire Line
+	1100 2650 1900 2650
+Wire Wire Line
+	1900 2650 2700 2650
+Wire Wire Line
+	2700 2650 3500 2650
+Wire Wire Line
+	3500 2650 4300 2650
+Wire Wire Line
+	1900 2650 1900 2400
+Wire Wire Line
+	2700 2650 2700 2400
+Connection ~ 1900 2650
+Wire Wire Line
+	3500 2650 3500 2400
+Connection ~ 2700 2650
+Wire Bus Line
+	550  1050 550  1550
+Wire Bus Line
+	550  1550 550  2050
+Wire Bus Line
+	550  2050 550  2550
+Wire Bus Line
+	550  2550 550  2900
+Entry Wire Line
+	550  1050 650  1150
+Entry Wire Line
+	550  1550 650  1650
+Entry Wire Line
+	550  2050 650  2150
+Entry Wire Line
+	550  2550 650  2650
+Connection ~ 1100 2150
+Connection ~ 1100 2650
+Wire Wire Line
+	650  1150 700  1150
+Wire Wire Line
+	650  1650 700  1650
+Wire Wire Line
+	650  2150 700  2150
+Wire Wire Line
+	650  2650 700  2650
+Text Label 600  2500 0    60   ~ 0
+KA8
+Text Label 600  2000 0    60   ~ 0
+KA9
+Text Label 600  1500 0    60   ~ 0
+KA10
+Text Label 600  1000 0    60   ~ 0
+KA11
+Wire Wire Line
+	4300 2650 4300 2400
+Connection ~ 3500 2650
+Wire Bus Line
+	10200 2900 10200 900 
+$EndSCHEMATC
