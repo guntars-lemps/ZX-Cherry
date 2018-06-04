@@ -2322,12 +2322,9 @@ Text Label 850  1550 0    60   ~ 0
 KD2
 Text Label 850  1650 0    60   ~ 0
 KD4
-NoConn ~ 1450 1750
-NoConn ~ 1950 1750
-NoConn ~ 1950 1650
 NoConn ~ 1950 2650
 Text Label 850  1850 0    60   ~ 0
-KCOMM
+VCC
 Text Label 850  1950 0    60   ~ 0
 KEDIT
 Text Label 850  2050 0    60   ~ 0
@@ -3343,29 +3340,6 @@ Wire Wire Line
 	7250 6200 6400 6200
 Entry Wire Line
 	6300 6100 6400 6200
-$Comp
-L R R55
-U 1 1 5B31AEEB
-P 10250 2750
-F 0 "R55" V 10330 2750 50  0000 C CNN
-F 1 "0R" V 10250 2750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10180 2750 50  0001 C CNN
-F 3 "" H 10250 2750 50  0000 C CNN
-	1    10250 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10100 2750 8950 2750
-Wire Wire Line
-	10400 2750 11100 2750
-Entry Wire Line
-	11100 2750 11200 2850
-Entry Wire Line
-	8850 2650 8950 2750
-Text Label 8950 2750 0    60   ~ 0
-KCOMM
-Text Label 10750 2750 0    60   ~ 0
-VCC
 NoConn ~ 5950 1450
 NoConn ~ 2750 1650
 NoConn ~ 2750 2350
@@ -3469,4 +3443,16 @@ Connection ~ 7950 1800
 Wire Wire Line
 	8300 1400 8300 1700
 Connection ~ 8300 1400
+Wire Wire Line
+	1450 1750 1350 1750
+Wire Wire Line
+	1350 1750 1350 1850
+Connection ~ 1350 1850
+Wire Wire Line
+	1950 1750 2550 1750
+Entry Wire Line
+	2550 1750 2650 1850
+Text Label 2150 1750 0    60   ~ 0
+VCC
+NoConn ~ 1950 1650
 $EndSCHEMATC
