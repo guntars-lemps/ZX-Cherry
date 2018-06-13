@@ -55,8 +55,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.5 1.5)
-    (pad_drill 0.6)
+    (pad_size 7 7)
+    (pad_drill 4)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (grid_origin 34.29 134.62)
@@ -225,7 +225,7 @@
     )
   )
 
-  (module Buttons_Switches_Keyboard:SW_Cherry_MX1A_2.25u_Plate (layer F.Cu) (tedit 5B20C1D6) (tstamp 5AFF52BD)
+  (module Buttons_Switches_Keyboard:SW_Cherry_MX1A_2.25u_Plate (layer F.Cu) (tedit 5B21646D) (tstamp 5AFF52BD)
     (at 42.64 115.22)
     (descr "Cherry MX keyswitch, MX1A, 2.25u, plate mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
     (tags "cherry mx keyswitch MX1A 2.25u plate")
@@ -266,7 +266,7 @@
     (pad "" thru_hole circle (at -14.44 -1.92) (size 6 6) (drill 3) (layers *.Cu *.Mask F.SilkS))
     (pad "" thru_hole circle (at 9.36 -1.92) (size 6 6) (drill 3) (layers *.Cu *.Mask F.SilkS))
     (pad "" thru_hole circle (at -14.44 13.32) (size 7 7) (drill 4) (layers *.Cu *.Mask F.SilkS))
-    (pad 4 thru_hole circle (at 9.36 13.32) (size 7 7) (drill 4) (layers *.Cu *.Mask F.SilkS))
+    (pad "" thru_hole circle (at 9.36 13.32) (size 7 7) (drill 4) (layers *.Cu *.Mask F.SilkS))
     (model ${KISYS3DMOD}/Buttons_Switches_Keyboard.3dshapes/SW_Cherry_MX1A_2.25u_Plate.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
