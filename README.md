@@ -7,3 +7,5 @@ The mainboard contains additional logic for the keyboard - BU4066 switches and o
 The mainboard also contains logic for the reset button and proxies I2C connection from Raspberry Pi to the HiFiBerry module.
 
 The Raspberry Pi, keyboard, HiFiBerry module, reset button and power wires connects to the mainboard.
+
+All boards together fits inside ZX Spectrum plus case.
