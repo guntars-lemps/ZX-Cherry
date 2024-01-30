@@ -8,4 +8,4 @@ The mainboard also contains logic for the reset button and proxies I2C connectio
 
 The Raspberry Pi, keyboard, HiFiBerry module, reset button and power wires connects to the mainboard.
 
-All boards together fits inside ZX Spectrum plus case.
+All boards together fit inside ZX Spectrum plus case.
